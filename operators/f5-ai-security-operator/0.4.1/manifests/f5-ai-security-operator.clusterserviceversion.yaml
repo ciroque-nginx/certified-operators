@@ -1,3 +1,4 @@
+---
 apiVersion: operators.coreos.com/v1alpha1
 kind: ClusterServiceVersion
 metadata:
@@ -274,7 +275,7 @@ spec:
     https://www.f5.com/products/get-f5?ls=meta#contactsales
 
     For AI Guardrails you will need a CUDA Compatible GPU with minimum GPU Memory of 24GB
-    
+
     For AI RedTeam you will need a CUDA Compatible GPU with minimum GPU Memory of 48GB
 
     ## Quickstart
@@ -282,10 +283,10 @@ spec:
     Once you have obtained the credentials for the repository you will need to create a Docker Registry Secret with those credentials. That can be done with the following command:
 
     ```bash
-    oc create secret docker-registry regcred \ 
-              -n f5-ai-sec \  
-              --docker-username=$DOCKER_USERNAME \   
-              --docker-password=$DOCKER_PASSWORD \   
+    oc create secret docker-registry regcred \
+              -n f5-ai-sec \
+              --docker-username=$DOCKER_USERNAME \
+              --docker-password=$DOCKER_PASSWORD \
               --docker-email=$DOCKER_EMAIL
     ```
     After you install the operator from the software Catalog, you can then browse the Installed Operator section and click on the F5 AI Security Operator. In there you can select the Security Operator tab and select the "Create SecurityOperator" Choose yaml and copy the below Custom Resource Template in there, changing select values to match your installation. Then Click Create.
