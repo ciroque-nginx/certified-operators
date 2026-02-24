@@ -272,11 +272,11 @@ spec:
 
     ## Prerequisites
 
-    In order to use the F5 Ai Security Operator, the following Operators must be installed on the 
-    cluster to orchestrate GPU resources: 
+    In order to use the F5 Ai Security Operator, the following Operators must be installed on the
+    cluster to orchestrate GPU resources:
 
-    - NVIDIA GPU Operator 
-    - Node Feature Discovery Operator 
+    - NVIDIA GPU Operator
+    - Node Feature Discovery Operator
 
     This operator depends on pulling containers from an authenticated repository and also
     requires a license. Please contact F5 AI Security Sales Team to obtain these components
