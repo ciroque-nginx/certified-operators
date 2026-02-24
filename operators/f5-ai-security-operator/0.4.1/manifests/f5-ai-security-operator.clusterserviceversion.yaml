@@ -55,7 +55,7 @@ metadata:
     operators.operatorframework.io/builder: operator-sdk-v1.42.0
     operators.operatorframework.io/project_layout: go.kubebuilder.io/v4
     support: F5, Inc.
-  name: f5-ai-security-operator.v0.4.0
+  name: f5-ai-security-operator.v0.4.1
   namespace: f5-ai-sec
 spec:
   apiservicedefinitions: {}
@@ -1044,4 +1044,4 @@ spec:
       name: cai_postgresql
     - image: harbor.calypsoai.app/calypsoai/prefect@sha256:22a43a1610b01c67c321887609debd1442e90d763c41a41477945632e9e7508c
       name: prefect
-  version: 0.4.0
+  version: 0.4.1
